@@ -42,9 +42,17 @@ An intelligent PowerPoint presentation generator and editor powered by Google's 
    ```
 
 3. **Set up environment variables**
-   Create a `.env` file in the project root:
+   ```bash
+   # Copy the example environment file
+   cp .env.example .env
+   
+   # Edit .env and add your actual Gemini API key
+   # Get your API key from: https://aistudio.google.com/app/apikey
    ```
-   GEMINI_API_KEY=your_gemini_api_key_here
+   
+   Your `.env` file should look like:
+   ```
+   GEMINI_API_KEY=your_actual_gemini_api_key_here
    ```
 
 4. **Run the application**
